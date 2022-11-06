@@ -1,0 +1,298 @@
+* {
+    margin: 0px;
+  }
+  body {
+    background-color: rgba(31, 26, 26, 0.852);
+  }
+  nav {
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+  }
+
+ nav a {
+    color: aliceblue;
+    float: right;
+    text-decoration: none;
+    margin: 17px 16px;
+  }
+  nav a select{
+    background-color: black;
+    color: aliceblue;
+  }
+  a:hover {
+    color: red;
+  }
+  .meme {
+    float: left;
+    color: aliceblue;
+    margin: 15px 21px;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row; /* isse dono boxes ko ak hi row me kar denge */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pic img {
+    /* float: right;*/
+    height: 100%;
+    width: 100%;
+    clip-path: circle(50% at 50% 50%);
+    margin: 65px 0px;
+    /* margin: 148px 249px; */
+  }
+  .pic {
+    /* border: 5px solid red; */
+    width: 30%;
+    height: 50%;
+  }
+  .intro {
+    /* position: absolute;
+top: 252px;
+right:739px;
+border: 5px solid red;
+font-size: 26px; */
+    /* border: 5px solid red; */
+    width: 350px;
+    height: 353px;
+    padding: 30px 0px;
+  }
+  h1 {
+    font-weight: bolder;
+    font-size: 45px;
+  }
+  .button {
+    width: 44%;
+    height: 36px;
+    border-radius: 5px;
+    margin: 10px 2px;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  #but1 {
+    background-color: aqua;
+  }
+  #but1:hover {
+    color: red;
+  }
+  #but2:hover {
+    background-color: blue;
+  }
+  .chat {
+    position: fixed;
+    bottom: 29px;
+    right: 40px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+  }
+  .chat:hover {
+    color: blue;
+    background-color: red;
+  }
+  .about {
+   
+    /* border: 5px solid green; */
+    margin: auto;
+    width: 50%;
+    text-align: center;
+   /* padding: 30px;   */
+}
+.box{
+              margin: 25px -14px;
+              padding: 10px;
+              /* border: 4px solid black; */
+              /* box-sizing: content-box; */
+              width: 215px;
+              height: 160px;  
+              text-align: center; 
+              
+              
+            }
+.box p{
+              color: aqua;            
+    }
+    .box img{ 
+        width: 137px;
+        filter: invert(100%);
+        /* border-radius: 20%;  baad idea */
+        clip-path: circle(41% at 50% 50%);
+        
+    }
+    .boxmodel{
+        display: flex;
+         flex-direction: row;
+        justify-content: center;
+        align-items: bottom;
+    }
+    #common{
+text-align: center;
+    }
+
+      #dobox{
+        
+        display: flex;
+         flex-direction: row;
+        justify-content: center;
+        align-items: bottom;
+      }  
+      .dobox{
+        font-size: 18px;
+        margin: 25px 14px;
+              padding: 10px;
+              /* border: 4px solid black; */
+              width: 295px;
+              height: 236px;  
+              text-align: center; 
+              background-color: rgba(102, 255, 0, 0.046);
+              color: white;
+             
+      }
+      .dobox img{
+        width: 182px;
+
+      }
+      #web img{
+        width: 120px;
+        margin: 30px 0px 14px;
+      }
+      .design img{
+        filter: invert(100%);
+        width: 207px;
+      }
+      .graphic img{
+        margin: 30px 0px 7px;
+        width: 207px;
+      }
+      .skillbox{
+        width: 100%;
+        height: 300px;
+        background-color: rgba(102, 255, 0, 0.046);
+        display: flex;
+        flex-direction: row;
+       justify-content: center;
+      }
+      .skill{
+        width: 15%;
+        height:85px ;
+        /* border: 4px solid white; */
+        font-size: 78px;
+        font-weight: bold;
+        color: aqua;
+        text-align: center;
+        padding: 105px 20px;
+        /* margin:auto 11px; kisi kaam ka nahi  */
+      }
+      em{
+        font-size: 30px;
+      }
+      .form-close{
+        display: block;
+        /* margin: auto;  yah dene ka koi fayada nahi  */
+        padding: 20px 0px;
+      }
+  .form{
+    display: grid;
+    grid-template-columns: 397px 396px;
+        /* margin: 30px 0px; */
+        margin: auto;
+         border: 4px solid black; 
+         width: 48%;
+         height: 322px;
+         justify-content: center;
+        grid-template-rows: 69px 69px 125px;
+        padding: 30px;
+  }
+  .input{
+    /* border: 4px solid white;  */
+    font-weight: bolder;
+
+  }
+  .input:nth-child(5){
+    grid-column-start: 1;
+     grid-column-end: 3;
+  }
+  
+
+  input[type="email"],
+    input[type="text"],
+    input[type="number"]
+    {
+      border: 1px solid aqua;
+        width: 60%;     /* ye hamari dabbo ki width bannane mai help karegi */
+        padding: 12px;
+        border-radius: 5px;
+        margin: 12px; 
+        background-color: rgba(0, 0, 0, 0.441);
+        color: aqua;
+    } 
+    textarea{
+      border: 1px solid aqua;
+      width: 80%;
+      margin-left: 15%;
+      padding: 12px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.441);
+        color: aqua;
+    }
+    label{
+      display: inline-block;
+      width: 101px;
+    }
+    .submit{
+      text-align: center;
+      /* border: 2px solid white; */
+      grid-column-start: 1;
+     grid-column-end: 3;
+
+    }
+  .submit-button{
+       padding: 14px;
+       font-weight: bolder;
+       font-size: 21px;
+       border-radius: 27px;
+       width: 30%;
+
+  }
+  .submit-button:hover{
+    color: blue;
+    background-color:aqua;
+  }
+  footer{
+    background: var rgba(0, 0, 0, 0.42);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+.social-links a{
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+    background: #fff;
+    color: rgba(0, 0, 0, 0.393);
+}
